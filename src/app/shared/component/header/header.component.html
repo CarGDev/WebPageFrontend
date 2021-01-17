@@ -1,0 +1,19 @@
+<div class="header">
+  <section class="header__section">
+    <section class="logo">
+      <img src="http://dummyimage.com/202x146.png/ff4444/ffffff"/>
+    </section>
+    <section class="title">
+      <div class="title__head">
+        <div *ngFor="let title of titles">
+          <a>{{ title.title }}</a>
+        </div>
+      </div>
+      <div class="title__socialMedia">
+        <div *ngFor="let image of socialMedia">
+          <img [src]=image/>
+        </div>
+      </div>
+    </section>
+  </section>
+</div>

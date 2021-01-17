@@ -1,0 +1,61 @@
+.container {
+  padding: 10px;
+}
+
+.title {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title__logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.title__name {
+  margin-left: 5px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.description {
+  margin-bottom: 20px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description__content {
+  width: 70%;
+  align-self: center;
+  font-size: 35px;
+  text-align: justify;
+}
+
+.tech__title {
+  text-align: center;
+  font-size: 50px;
+}
+
+.images {
+  /*display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(100px), 1fr);
+  gap: 10px;*/
+  display: flex;
+  justify-content: center;
+
+}
+
+.images img {
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+
